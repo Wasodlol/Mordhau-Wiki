@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@1,600&display=swap');
+body{
+    background-color: black;
+    background:url(https://i.playground.ru/p/Xf5-_3Rmf3usivxyBOjhBQ.jpeg) ;
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: #2d353a;
+}
+.win{
+    margin-left: auto;
+    margin-right: auto;
+}
+#menu1{
+    position: relative;
+    display: block;
+    width: 100%;
+    height: auto;
+    z-index: 10;
+   }
+   #menu1 ul{
+    position: relative;
+    display: block;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: auto;
+    list-style: none;
+   }
+   #menu1 > ul::after{
+    display: block;
+    width: 100%;
+    height: 0px;
+    clear: both;
+    content: " ";
+   }
+   #menu1 ul li{
+    position: relative;
+    display: block;
+    float: left;
+    width: auto;
+    height: auto;
+   }
+   #menu1 ul li a{
+    display: block;
+    padding: 9px 25px 0px 25px;
+    font-size: 14px;
+    line-height: 1.3em;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    height: 36px;
+    box-sizing: border-box;
+    color: rgb(0, 0, 0);
+   }
+   #menu1 ul li ul{
+    position: absolute;
+    top: 36px;
+    left: 0px;
+    display: none;
+    width: 250px;
+    background: #484a4d;
+   }
+   #menu1 ul li:hover ul{
+    display: block;
+   }
+   #menu1 ul li ul li{
+    float: none;
+    width: 100%;
+   }
+   #menu1 ul li ul li a{
+    display: block;
+    text-transform: none;
+    height: auto;
+    padding: 7px 25px;
+    width: 100%;
+    box-sizing: border-box;
+    border-top: 1px solid #ffffff;
+    color: white;
+   }
+   #menu1 ul li ul li:first-child a{
+    border-top: 0px;
+   }   
+   .win{
+    background-color: rgba(144, 156, 156, 0.918);
+    margin:0;
+    text-align:center;
+    padding: 10px;
+   } 
+   main{
+       background-color: rgba(185, 185, 185, 0.705);
+       margin: 24px;
+       box-shadow: 3px 3px 3px 3px #000000;
+   }
+   .text{ 
+       background-color: #b1b4b8b9;
+margin: 25px;
+box-shadow: 3px 3px 3px 3px #000000;
+   }
+   footer{
+       background-color: rgba(0, 0, 0, 0.788);
+     margin: 0px;  
+     padding: 20px;
+   }
+   .wedd{
+     box-shadow: 3px 3px 3px 3px #000000;
+    }
+    b{
+        font-family: 'Anton', sans-serif;
+    }
+    .st{
+        font-family: 'Crimson Text', serif;
+    }
+    .carousele {
+        width:640px;
+        height:360px;
+        margin: auto;
+      }
+      .wq{
+        color: aliceblue;
+      }

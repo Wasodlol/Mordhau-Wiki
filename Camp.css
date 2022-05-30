@@ -1,0 +1,16 @@
+body{
+    
+    background: url(https://uploads.mordhau.com/spirit/images/7902/5a0094d5d38281fe1adb5256b2fd2530.jpeg);
+}
+.text{
+    background-color: #b1b4b8b9;
+    box-shadow: 3px 3px 3px 3px #000000;
+}
+.tex{
+    background-color: #b1b4b8b9;
+    box-shadow: 3px 3px 3px 3px #000000;
+}
+iframe{
+    margin: 30px;
+    box-shadow: 3px 3px 3px 5px #000000;
+}
